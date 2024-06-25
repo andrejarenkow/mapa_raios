@@ -51,7 +51,7 @@ fig = px.scatter_mapbox(all_data.sort_values('horario'),
                         zoom=5,
                         center = {'lat':-31,'lon':-52},
                         animation_frame="horario",
-                        height=800,
+                        height=600,
                         width=1000)
 
 fig.update_layout(mapbox_style="open-street-map")
