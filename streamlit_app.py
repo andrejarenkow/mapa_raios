@@ -1,6 +1,7 @@
 import plotly.express as px
 import requests
 import pandas as pd
+import streamlit as st
 
 # Função para obter dados de uma API e retornar um DataFrame
 def get_data_for_hour(hour):
